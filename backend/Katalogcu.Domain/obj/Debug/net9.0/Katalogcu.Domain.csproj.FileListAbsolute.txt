@@ -9,3 +9,4 @@
 /Users/suleymankolenoglu/Desktop/Projeler/Katalogcu/backend/Katalogcu.Domain/obj/Debug/net9.0/refint/Katalogcu.Domain.dll
 /Users/suleymankolenoglu/Desktop/Projeler/Katalogcu/backend/Katalogcu.Domain/obj/Debug/net9.0/Katalogcu.Domain.pdb
 /Users/suleymankolenoglu/Desktop/Projeler/Katalogcu/backend/Katalogcu.Domain/obj/Debug/net9.0/ref/Katalogcu.Domain.dll
+/Users/suleymankolenoglu/Desktop/Projeler/Katalogcu/backend/Katalogcu.Domain/obj/Debug/net9.0/Katalogcu.Domain.sourcelink.json

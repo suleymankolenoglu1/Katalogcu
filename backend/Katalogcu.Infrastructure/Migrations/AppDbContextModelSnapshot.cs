@@ -197,8 +197,15 @@ namespace Katalogcu.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("PageNumber")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<decimal>("Price")
                         .HasColumnType("numeric");
+
+                    b.Property<int>("RefNo")
+                        .HasColumnType("integer");
 
                     b.Property<int>("StockQuantity")
                         .HasColumnType("integer");
@@ -255,7 +262,7 @@ namespace Katalogcu.Infrastructure.Migrations
             modelBuilder.Entity("Katalogcu.Domain.Entities.Product", b =>
                 {
                     b.HasOne("Katalogcu.Domain.Entities.Catalog", "Catalog")
-                        .WithMany()
+                        .WithMany("Products")
                         .HasForeignKey("CatalogId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -266,6 +273,8 @@ namespace Katalogcu.Infrastructure.Migrations
             modelBuilder.Entity("Katalogcu.Domain.Entities.Catalog", b =>
                 {
                     b.Navigation("Pages");
+
+                    b.Navigation("Products");
                 });
 
             modelBuilder.Entity("Katalogcu.Domain.Entities.CatalogPage", b =>

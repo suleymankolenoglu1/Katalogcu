@@ -13,3 +13,4 @@
 /Users/suleymankolenoglu/Desktop/Projeler/Katalogcu/backend/Katalogcu.Application/obj/Debug/net9.0/refint/Katalogcu.Application.dll
 /Users/suleymankolenoglu/Desktop/Projeler/Katalogcu/backend/Katalogcu.Application/obj/Debug/net9.0/Katalogcu.Application.pdb
 /Users/suleymankolenoglu/Desktop/Projeler/Katalogcu/backend/Katalogcu.Application/obj/Debug/net9.0/ref/Katalogcu.Application.dll
+/Users/suleymankolenoglu/Desktop/Projeler/Katalogcu/backend/Katalogcu.Application/obj/Debug/net9.0/Katalogcu.Application.sourcelink.json
