@@ -184,3 +184,4 @@
 /Users/suleymankolenoglu/Desktop/Projeler/Katalogcu/backend/Katalogcu.API/bin/Debug/net9.0/PdfSharpCore.dll
 /Users/suleymankolenoglu/Desktop/Projeler/Katalogcu/backend/Katalogcu.API/bin/Debug/net9.0/SixLabors.Fonts.dll
 /Users/suleymankolenoglu/Desktop/Projeler/Katalogcu/backend/Katalogcu.API/bin/Debug/net9.0/de/PdfSharpCore.resources.dll
+/Users/suleymankolenoglu/Desktop/Projeler/Katalogcu/backend/Katalogcu.API/bin/Debug/net9.0/Google.Cloud.Vision.V1.dll

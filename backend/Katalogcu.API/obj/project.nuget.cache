@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PnS/T0i7CeA=",
+  "dgSpecHash": "bRc6kYkUp8Q=",
   "success": true,
   "projectFilePath": "/Users/suleymankolenoglu/Desktop/Projeler/Katalogcu/backend/Katalogcu.API/Katalogcu.API.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "/Users/suleymankolenoglu/.nuget/packages/google.apis.core/1.72.0/google.apis.core.1.72.0.nupkg.sha512",
     "/Users/suleymankolenoglu/.nuget/packages/google.cloud.documentai.v1/3.23.0/google.cloud.documentai.v1.3.23.0.nupkg.sha512",
     "/Users/suleymankolenoglu/.nuget/packages/google.cloud.location/2.4.0/google.cloud.location.2.4.0.nupkg.sha512",
+    "/Users/suleymankolenoglu/.nuget/packages/google.cloud.vision.v1/3.8.0/google.cloud.vision.v1.3.8.0.nupkg.sha512",
     "/Users/suleymankolenoglu/.nuget/packages/google.longrunning/3.5.0/google.longrunning.3.5.0.nupkg.sha512",
     "/Users/suleymankolenoglu/.nuget/packages/google.protobuf/3.31.1/google.protobuf.3.31.1.nupkg.sha512",
     "/Users/suleymankolenoglu/.nuget/packages/grpc.auth/2.71.0/grpc.auth.2.71.0.nupkg.sha512",

@@ -139,11 +139,23 @@ namespace Katalogcu.Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
+                    b.Property<double>("AiConfidence")
+                        .HasColumnType("double precision");
+
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<int>("Number")
-                        .HasColumnType("integer");
+                    b.Property<double>("Height")
+                        .HasColumnType("double precision");
+
+                    b.Property<bool>("IsAiDetected")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("Label")
+                        .HasColumnType("text");
+
+                    b.Property<double>("Left")
+                        .HasColumnType("double precision");
 
                     b.Property<Guid>("PageId")
                         .HasColumnType("uuid");
@@ -151,13 +163,13 @@ namespace Katalogcu.Infrastructure.Migrations
                     b.Property<Guid?>("ProductId")
                         .HasColumnType("uuid");
 
+                    b.Property<double>("Top")
+                        .HasColumnType("double precision");
+
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<double>("X")
-                        .HasColumnType("double precision");
-
-                    b.Property<double>("Y")
+                    b.Property<double>("Width")
                         .HasColumnType("double precision");
 
                     b.HasKey("Id");

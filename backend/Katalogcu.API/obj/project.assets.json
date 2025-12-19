@@ -276,6 +276,23 @@
           }
         }
       },
+      "Google.Cloud.Vision.V1/3.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Api.Gax.Grpc": "[4.12.1, 5.0.0)",
+          "Google.LongRunning": "[3.5.0, 4.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Cloud.Vision.V1.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Cloud.Vision.V1.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Google.LongRunning/3.5.0": {
         "type": "package",
         "dependencies": {
@@ -2024,6 +2041,25 @@
         "lib/netstandard2.0/Google.Cloud.Location.dll",
         "lib/netstandard2.0/Google.Cloud.Location.pdb",
         "lib/netstandard2.0/Google.Cloud.Location.xml"
+      ]
+    },
+    "Google.Cloud.Vision.V1/3.8.0": {
+      "sha512": "VHK9N9hL0y747yss00iG/04tRx2i85SLOxRX+FU4i6PlG88cAwzkW01cv3q8Zy6TnaJ6riNo/lrXO10UN6+AWw==",
+      "type": "package",
+      "path": "google.cloud.vision.v1/3.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.cloud.vision.v1.3.8.0.nupkg.sha512",
+        "google.cloud.vision.v1.nuspec",
+        "lib/net462/Google.Cloud.Vision.V1.dll",
+        "lib/net462/Google.Cloud.Vision.V1.pdb",
+        "lib/net462/Google.Cloud.Vision.V1.xml",
+        "lib/netstandard2.0/Google.Cloud.Vision.V1.dll",
+        "lib/netstandard2.0/Google.Cloud.Vision.V1.pdb",
+        "lib/netstandard2.0/Google.Cloud.Vision.V1.xml"
       ]
     },
     "Google.LongRunning/3.5.0": {
@@ -4873,6 +4909,7 @@
       "DotNetCore.NPOI >= 1.2.3",
       "Google.Api.CommonProtos >= 2.17.0",
       "Google.Cloud.DocumentAI.V1 >= 3.23.0",
+      "Google.Cloud.Vision.V1 >= 3.8.0",
       "Katalogcu.Application >= 1.0.0",
       "Katalogcu.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 9.0.0",
@@ -4948,6 +4985,10 @@
           "Google.Cloud.DocumentAI.V1": {
             "target": "Package",
             "version": "[3.23.0, )"
+          },
+          "Google.Cloud.Vision.V1": {
+            "target": "Package",
+            "version": "[3.8.0, )"
           },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
